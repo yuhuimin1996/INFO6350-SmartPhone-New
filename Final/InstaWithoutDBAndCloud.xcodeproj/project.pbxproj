@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EEA84B429F32DB800E25352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEA84B329F32DB800E25352 /* AppDelegate.swift */; };
+		7EEA84B629F32DB800E25352 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEA84B529F32DB800E25352 /* SceneDelegate.swift */; };
+		7EEA84BB29F32DB800E25352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EEA84B929F32DB800E25352 /* Main.storyboard */; };
+		7EEA84BD29F32DB900E25352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EEA84BC29F32DB900E25352 /* Assets.xcassets */; };
+		7EEA84C029F32DB900E25352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EEA84BE29F32DB900E25352 /* LaunchScreen.storyboard */; };
+		7EEA84C829F3303F00E25352 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEA84C729F3303F00E25352 /* HomeViewController.swift */; };
+		7EEA84CA29F3305100E25352 /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEA84C929F3305000E25352 /* UploadImageViewController.swift */; };
+		7EEA84CC29F3369900E25352 /* UploadImageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEA84CB29F3369900E25352 /* UploadImageProtocol.swift */; };
+		7EEA84CE29F33FAB00E25352 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEA84CD29F33FAB00E25352 /* TabBarViewController.swift */; };
+		7EEA84D129F3607600E25352 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEA84CF29F3607600E25352 /* TableViewCell.swift */; };
+		7EEA84D229F3607600E25352 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EEA84D029F3607600E25352 /* TableViewCell.xib */; };
+		7EEA84D629F499CC00E25352 /* InstaImageCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEA84D529F499CC00E25352 /* InstaImageCellData.swift */; };
+		927A0133CEB0496AE6C2CC39 /* Pods_InstaWithoutDBAndCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE313F19AF5154842CDAED4 /* Pods_InstaWithoutDBAndCloud.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BE313F19AF5154842CDAED4 /* Pods_InstaWithoutDBAndCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaWithoutDBAndCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD2A25313E2BD69D947EAEF /* Pods-InstaWithoutDBAndCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaWithoutDBAndCloud.debug.xcconfig"; path = "Target Support Files/Pods-InstaWithoutDBAndCloud/Pods-InstaWithoutDBAndCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		7EEA84B029F32DB800E25352 /* InstaWithoutDBAndCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaWithoutDBAndCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EEA84B329F32DB800E25352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EEA84B529F32DB800E25352 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7EEA84BA29F32DB800E25352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EEA84BC29F32DB900E25352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EEA84BF29F32DB900E25352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EEA84C129F32DB900E25352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EEA84C729F3303F00E25352 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7EEA84C929F3305000E25352 /* UploadImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageViewController.swift; sourceTree = "<group>"; };
+		7EEA84CB29F3369900E25352 /* UploadImageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageProtocol.swift; sourceTree = "<group>"; };
+		7EEA84CD29F33FAB00E25352 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		7EEA84CF29F3607600E25352 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		7EEA84D029F3607600E25352 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		7EEA84D529F499CC00E25352 /* InstaImageCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaImageCellData.swift; sourceTree = "<group>"; };
+		B4C6C8942AF52754C0B149F4 /* Pods-InstaWithoutDBAndCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaWithoutDBAndCloud.release.xcconfig"; path = "Target Support Files/Pods-InstaWithoutDBAndCloud/Pods-InstaWithoutDBAndCloud.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EEA84AD29F32DB800E25352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927A0133CEB0496AE6C2CC39 /* Pods_InstaWithoutDBAndCloud.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D7E62C57401A27351731CCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DD2A25313E2BD69D947EAEF /* Pods-InstaWithoutDBAndCloud.debug.xcconfig */,
+				B4C6C8942AF52754C0B149F4 /* Pods-InstaWithoutDBAndCloud.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7EEA84A729F32DB800E25352 = {
+			isa = PBXGroup;
+			children = (
+				7EEA84B229F32DB800E25352 /* InstaWithoutDBAndCloud */,
+				7EEA84B129F32DB800E25352 /* Products */,
+				6D7E62C57401A27351731CCF /* Pods */,
+				DDEB93FF810D4D71801B1525 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EEA84B129F32DB800E25352 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EEA84B029F32DB800E25352 /* InstaWithoutDBAndCloud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EEA84B229F32DB800E25352 /* InstaWithoutDBAndCloud */ = {
+			isa = PBXGroup;
+			children = (
+				7EEA84B329F32DB800E25352 /* AppDelegate.swift */,
+				7EEA84B529F32DB800E25352 /* SceneDelegate.swift */,
+				7EEA84B929F32DB800E25352 /* Main.storyboard */,
+				7EEA84BC29F32DB900E25352 /* Assets.xcassets */,
+				7EEA84BE29F32DB900E25352 /* LaunchScreen.storyboard */,
+				7EEA84C129F32DB900E25352 /* Info.plist */,
+				7EEA84C729F3303F00E25352 /* HomeViewController.swift */,
+				7EEA84C929F3305000E25352 /* UploadImageViewController.swift */,
+				7EEA84CB29F3369900E25352 /* UploadImageProtocol.swift */,
+				7EEA84CD29F33FAB00E25352 /* TabBarViewController.swift */,
+				7EEA84CF29F3607600E25352 /* TableViewCell.swift */,
+				7EEA84D029F3607600E25352 /* TableViewCell.xib */,
+				7EEA84D529F499CC00E25352 /* InstaImageCellData.swift */,
+			);
+			path = InstaWithoutDBAndCloud;
+			sourceTree = "<group>";
+		};
+		DDEB93FF810D4D71801B1525 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BE313F19AF5154842CDAED4 /* Pods_InstaWithoutDBAndCloud.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EEA84AF29F32DB800E25352 /* InstaWithoutDBAndCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EEA84C429F32DB900E25352 /* Build configuration list for PBXNativeTarget "InstaWithoutDBAndCloud" */;
+			buildPhases = (
+				5CCF44CD86A61D243415F121 /* [CP] Check Pods Manifest.lock */,
+				7EEA84AC29F32DB800E25352 /* Sources */,
+				7EEA84AD29F32DB800E25352 /* Frameworks */,
+				7EEA84AE29F32DB800E25352 /* Resources */,
+				60BFF8DCE630FB14CD19A8BE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaWithoutDBAndCloud;
+			productName = InstaWithoutDBAndCloud;
+			productReference = 7EEA84B029F32DB800E25352 /* InstaWithoutDBAndCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EEA84A829F32DB800E25352 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7EEA84AF29F32DB800E25352 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 7EEA84AB29F32DB800E25352 /* Build configuration list for PBXProject "InstaWithoutDBAndCloud" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EEA84A729F32DB800E25352;
+			productRefGroup = 7EEA84B129F32DB800E25352 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EEA84AF29F32DB800E25352 /* InstaWithoutDBAndCloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EEA84AE29F32DB800E25352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EEA84C029F32DB900E25352 /* LaunchScreen.storyboard in Resources */,
+				7EEA84D229F3607600E25352 /* TableViewCell.xib in Resources */,
+				7EEA84BD29F32DB900E25352 /* Assets.xcassets in Resources */,
+				7EEA84BB29F32DB800E25352 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CCF44CD86A61D243415F121 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaWithoutDBAndCloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60BFF8DCE630FB14CD19A8BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaWithoutDBAndCloud/Pods-InstaWithoutDBAndCloud-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaWithoutDBAndCloud/Pods-InstaWithoutDBAndCloud-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaWithoutDBAndCloud/Pods-InstaWithoutDBAndCloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EEA84AC29F32DB800E25352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EEA84B429F32DB800E25352 /* AppDelegate.swift in Sources */,
+				7EEA84CA29F3305100E25352 /* UploadImageViewController.swift in Sources */,
+				7EEA84CC29F3369900E25352 /* UploadImageProtocol.swift in Sources */,
+				7EEA84B629F32DB800E25352 /* SceneDelegate.swift in Sources */,
+				7EEA84CE29F33FAB00E25352 /* TabBarViewController.swift in Sources */,
+				7EEA84D129F3607600E25352 /* TableViewCell.swift in Sources */,
+				7EEA84C829F3303F00E25352 /* HomeViewController.swift in Sources */,
+				7EEA84D629F499CC00E25352 /* InstaImageCellData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EEA84B929F32DB800E25352 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EEA84BA29F32DB800E25352 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EEA84BE29F32DB900E25352 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EEA84BF29F32DB900E25352 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EEA84C229F32DB900E25352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EEA84C329F32DB900E25352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EEA84C529F32DB900E25352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD2A25313E2BD69D947EAEF /* Pods-InstaWithoutDBAndCloud.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstaWithoutDBAndCloud/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northeastern.huimin.InstaWithoutDBAndCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EEA84C629F32DB900E25352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4C6C8942AF52754C0B149F4 /* Pods-InstaWithoutDBAndCloud.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstaWithoutDBAndCloud/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northeastern.huimin.InstaWithoutDBAndCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EEA84AB29F32DB800E25352 /* Build configuration list for PBXProject "InstaWithoutDBAndCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EEA84C229F32DB900E25352 /* Debug */,
+				7EEA84C329F32DB900E25352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EEA84C429F32DB900E25352 /* Build configuration list for PBXNativeTarget "InstaWithoutDBAndCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EEA84C529F32DB900E25352 /* Debug */,
+				7EEA84C629F32DB900E25352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EEA84A829F32DB800E25352 /* Project object */;
+}
